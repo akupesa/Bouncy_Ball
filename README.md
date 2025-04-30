@@ -1,4 +1,4 @@
-## Bouncy_Ball 🎮##
+## Bouncy_Ball 🎮
 
 [](https://github.com/akupesa/Bouncy_Ball/blob/main/README.md#bouncy_ball-)
 
