@@ -12,3 +12,8 @@ func	calculate_stomp_velocity(linear_velocity: Vector2, impulse: float) -> Vecto
 	var out: = linear_velocity
 	out.y = -impulse
 	return out
+
+
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().quit()

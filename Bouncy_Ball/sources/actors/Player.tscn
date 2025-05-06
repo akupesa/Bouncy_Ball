@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/player.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 47, 42 )
+extents = Vector2( 47, 48 )
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 47.902, 43.2463 )
@@ -18,10 +18,11 @@ position = Vector2( 0, -48 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, -42 )
+position = Vector2( 0, -47 )
 shape = SubResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( -48, -47 )
 current = true
 limit_left = 0
 limit_top = 0
